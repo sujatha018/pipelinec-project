@@ -3,10 +3,10 @@ piepline {
     stages {
         stage('STAGE-1') {
             when {
-                branch 'main'
+                branch 'master'
             }
             steps{
-                sh "echo STEGE-2 executes if branch is main"
+                sh "echo STEGE-2 executes if branch is master"
             }
         }
 
